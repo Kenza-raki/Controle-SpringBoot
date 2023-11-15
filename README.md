@@ -1,7 +1,7 @@
-# Application de Gestion des Étudiants
+# Application de Gestion des Articles
 
 ## Introduction
-Ce projet est une application de gestion qui permet de gérer des étudiants, des filières, des rôles et des utilisateurs. Les étudiants héritent des attributs d'un utilisateur, et il est possible d'affecter des étudiants à des filières et d'attribuer des rôles à des utilisateurs.
+Ce projet est une application de gestion qui permet de gérer des articles selon leurs categorie.
 
 L'application a été développée en utilisant les technologies et outils suivantes :
 
@@ -26,10 +26,34 @@ Swagger est un outil de documentation d'API qui génère une documentation inter
 ## Les taches réalisés
 
 #### La base des données
-
-#### Postman
+<img width="650" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/9ef83907-745d-4704-ad04-9551b0ab0617">
 
 #### Swagger
+
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/a4951370-580d-404b-9213-4e8a6e83db93">
+
+### Les CRUDs
+#### GET 
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/1b171712-3bd4-42f8-9689-1aee3385d3bd">
+
+#### POST
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/1352ed42-b3dc-4806-b0f1-a3c93468d9f0">
+
+#### DELETE
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/94632167-1099-457d-ab63-494a7f9866aa">
+
+#### PUT
+
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/26d93883-4cb5-4fe9-bfb9-f2d53cacf72a">
+
+### Gestion des articles par categorie
+
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/3ab41252-929e-4af5-bf71-b32b13aefd34">
+
+### Gestion des articles par date de Production
+
+<img width="960" alt="image" src="https://github.com/Kenza-raki/Controle-SpringBoot/assets/116951093/3e6d50dc-e18f-489e-b538-46a299a0fab1">
+
 
 ## Utilisation
 
@@ -39,14 +63,9 @@ Vous pouvez utiliser Postman pour tester les endpoints de l'API. Importez la col
 
 ### Documentation Swagger
 
-La documentation Swagger de l'API est accessible à l'adresse `http://localhost:8080/swagger-ui.html`. Vous y trouverez une description complète des endpoints et vous pourrez les tester directement depuis l'interface Swagger.
+La documentation Swagger de l'API est accessible à l'adresse `http://localhost:8080"/swagger-ui.html`. Vous y trouverez une description complète des endpoints et vous pourrez les tester directement depuis l'interface Swagger.
 
-### Exemples d'Endpoints
 
-- Pour créer un nouvel utilisateur : `POST /api/users`
-- Pour affecter un rôle à un utilisateur : `POST /api/users/{userId}/roles`
-- Pour créer un nouvel étudiant : `POST /api/students`
-- Pour affecter une filière à un étudiant : `POST /api/students/{studentId}/filiere`
 
 ## Configuration
 
